@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="../common/jquery-3.5.1.min.js"></script>
+    <script src="../common/bootstrap-4.5.0-dist/js/bootstrap.js"></script>
+    <link href="../common/bootstrap-4.5.0-dist/css/bootstrap.css" rel="stylesheet">
+    <script src="offerTrip.js"></script>
+    <link rel="stylesheet" href="trip.css">
+
+</head>
+<body>
+<div class="container">
+    <form class="form-signin" id="form">
+        <div class="row">
+            <img class="center" src="../login/logoRoad.png" alt="" width="72" height="72">
+        </div>
+        <div class="row">
+            <h1 class="h3 center">Trip offer</h1>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <select class="custom-select d-block w-100" id="map" name="map" required>
+                    <option value="">Choose map</option>
+                </select>
+            </div>
+        </div>
+        <div style="margin-top: 10px" id="alert-map" role="alert">
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <label for="daystart">Day start</label>
+                <input type="text" class="form-control" id="daystart" placeholder="" value="" name="daystart">
+                <div role="alert" id="alert-day">
+                </div>
+            </div>
+            <div class="col">
+                <label for="hour">Hours</label>
+                <input type="text" class="form-control" id="hour" placeholder="" value="" name="hour">
+                <div id="alert-hours" role="alert">
+                </div>
+            </div>
+            <div class="col">
+                <label for="minutes">Minutes</label>
+                <input type="text" class="form-control" id="minutes" placeholder="" value="" name="minutes">
+                <div id="alert-minutes" role="alert">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="ppk">Price per km</label>
+                <input type="text" class="form-control" id="ppk" placeholder="" value="" name="ppk">
+                <div id="alert-ppk" role="alert">
+                </div>
+            </div>
+
+            <div class="col">
+                <label for="capacity">capacity</label>
+                <input type="text" class="form-control" id="capacity" placeholder="" value="" name="capacity">
+                <div id="alert-capacity" role="alert">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <select class="custom-select d-block w-100" id="recurrences" required>
+                    <option value="">Choose recurrences</option>
+                    <option>OneTime</option>
+                    <option>Daily</option>
+                    <option>BiDaily</option>
+                    <option>Weekly</option>
+                    <option>Monthly</option>
+                </select>
+            </div>
+        </div>
+        <div style="margin-top: 10px" id="alert-recurrences" role="alert">
+        </div>
+
+        <h6>Set route</h6>
+        <small>select station to add to the route click clear to remove all choices</small><br>
+        <p class="lead" id="route" name="route"></p>
+        <div class="row">
+            <div class="col">
+                <select class="custom-select d-block w-100" id="stop" >
+                    <option value="">Station</option>
+                </select>
+                <div style="margin-top: 10px" id="alert-route" role="alert">
+                </div>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-dark" id="clear-route">clear</button>
+                <button type="button" class="btn btn-dark" id="add-stop-route">Add</button>
+            </div>
+        </div>
+
+
+        <br>
+
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-lg btn-secondary btn-block" id="back">Back</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Add</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

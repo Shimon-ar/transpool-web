@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="common/jquery-3.5.1.min.js"></script>
+    <script src="login/login.js"></script>
+    <link href="common/bootstrap-4.5.0-dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="login/login.css">
+</head>
+<body class="text-center">
+<form class="form-signin" id="form" >
+    <img class="mb-4" src="login/logoRoad.png" alt="" width="72" height="72">
+    <h1 class="h3 mb-3 font-weight-normal">Sign in</h1>
+    <input type="text" class="form-control" placeholder="Name" id="name1" name="username">
+    <div class="checkbox mb-3 form-check form-check-inline" >
+        <label>
+            <input type="checkbox" id="offer" name="offer"> Offer's
+        </label>
+    </div>
+    <div class="checkbox mb-3 form-check form-check-inline">
+        <label>
+            <input type="checkbox" id="request" name="request"> Requesting
+        </label>
+    </div>
+    <div class="alert" id="alert" role="alert">
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+    <p class="mt-5 mb-3 text-muted">&copy;java and web mta 2020</p>
+</form>
+
+</body>
+</html>

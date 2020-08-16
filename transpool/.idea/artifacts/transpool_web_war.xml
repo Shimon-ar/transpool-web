@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="transpool-web:war">
+    <output-path>$PROJECT_DIR$/transpool-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>transpool-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="transpool-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="transpool-web:war exploded" />
+    </root>
+  </artifact>
+</component>

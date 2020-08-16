@@ -1,0 +1,22 @@
+
+
+
+.card {
+    height: 400px;
+    overflow: scroll;
+}
+
+.modal-body{
+    height: 500px;
+}
+
+.firsttable{
+    cursor: pointer;
+}
+
+.list-group{
+    cursor: pointer;
+}
+
+
+
