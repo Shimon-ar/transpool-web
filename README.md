@@ -19,3 +19,11 @@ Explanation about the app:
        - Show feedback- allows you to see all your feedbacks.
        - Add trip- allows you to add new trip to any map . for requesting trip you can choose flexibility ,which determines how many hours you are willing to wait from your original time, and option to split or not to split your trip to different drivers.
   - Alerts: alerts will prompt at any page when rank or match taking place.
+
+## Home page
+<img width="1276" alt="home_page" src="https://user-images.githubusercontent.com/63349042/114303053-a95b2880-9ad4-11eb-84bd-63c3ca8228f1.png">
+
+
+## Set Match
+<img width="1423" alt="match_pic" src="https://user-images.githubusercontent.com/63349042/114303061-b37d2700-9ad4-11eb-97fb-aa69a9c8e351.png">
+
